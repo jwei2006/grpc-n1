@@ -1,0 +1,21 @@
+{
+  "apps": [
+    {
+      "name": "leave-web",
+      "script": "bin/production.js",
+      // "cwd": "/absolute/path/to/project",
+      "exec_mode": "cluster",
+      "instances": 0,
+      "max_memory_restart": "1G",
+      "autorestart": true,
+      "ignore_watch" : [".idea", "node_modules"],
+      "node_args": [],
+      "args": [],
+      "env": {
+        "NODE_ENV": "production"
+      }
+      ,"merge_logs" : true
+      ,"out_file" : "/dev/null"
+    }
+  ]
+}
