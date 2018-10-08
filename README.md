@@ -1,4 +1,4 @@
-# IBD企业后台管理web
+# 后台管理web
 
 可以直接在项目里使用 ES6/7（Generator Function, Class, Async & Await）等特性，借助 Babel 编译，可稳定运行在 Node.js 环境上。
 
